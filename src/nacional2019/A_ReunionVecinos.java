@@ -62,6 +62,16 @@ class Edificio {
 
 // ReunionChecker
 public class A_ReunionVecinos {
+	public static boolean reunionCheck (Edificio bloque) {
+		int viviendas = bloque.getViviendas();
+		int requeridos = viviendas/2 + viviendas%2;
+		
+		if (bloque.getAsistentes() >= requeridos) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 
 	public static void main (String[] args) {
 		Scanner ent = new Scanner(System.in);
@@ -89,11 +99,7 @@ public class A_ReunionVecinos {
 		} while (p > 0 && l > 0 && a > 0);
 		
 		for (int i=0; i < ne-1; i++) {
-			Edificio edificio = casos[i];
-			int viviendas = edificio.getViviendas();
-			int requeridos = viviendas/2 + viviendas%2;
-			
-			if (casos[i].getAsistentes() >= requeridos) {
+			if (reunionCheck(casos[i])) {
 				System.out.println("EMPEZAMOS");
 			} else {
 				System.out.println("ESPERAMOS");
