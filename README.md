@@ -1,10 +1,11 @@
-ProgramaMe - prácticas
+ProgramaMe - prácticas  
 ==========
-Repositorio de prácticas para la edición 2020 de *ProgramaMe*
+Repositorio de prácticas para la edición 2020 de *ProgramaMe*  
+
+Lista de equipo:  
+MAKUTO  
+MK-13  
+MGI007  
+MATTHEW  
 
 COPYRIGHT ©️ BLUGNESBLUG FUCK YEAH
-Lista de equipo :
-MAKUTO
-MK-13
-MGI007
-MATEWiS
